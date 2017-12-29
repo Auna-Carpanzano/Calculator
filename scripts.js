@@ -17,4 +17,7 @@ $(document).ready(function() {
   //For validation- decimal
   var operators2 = ["."];
 
+  //For validation- numbers
+  var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 }); //End document ready function
