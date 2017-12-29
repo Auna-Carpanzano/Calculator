@@ -30,6 +30,7 @@ $(document).ready(function() {
     if (afterEqual === true) {
       lastTotal = $("#output").html();
       inputs = [lastTotal];
+      total = inputs;
     }
 
   } // End getVal function
