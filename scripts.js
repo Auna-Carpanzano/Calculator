@@ -29,6 +29,7 @@ $(document).ready(function() {
     */
     if (afterEqual === true) {
       lastTotal = $("#output").html();
+      inputs = [lastTotal];
     }
 
   } // End getVal function
