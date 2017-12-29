@@ -36,3 +36,7 @@ body {
 .zeroBtn {
   width: 169px;
 }
+
+#output {
+  background-color: #B8A48C;
+}
