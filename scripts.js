@@ -11,4 +11,7 @@ $(document).ready(function() {
   //Stores string of inputs
   var total;
 
+  //For validation- without decimal
+  var operators1 = ["+", "-", "/", "*"];
+
 }); //End document ready function
