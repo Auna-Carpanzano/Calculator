@@ -28,7 +28,7 @@ $(document).ready(function() {
     and change afterEqual to false
     */
     if (afterEqual === true) {
-
+      lastTotal = $("#output").html();
     }
 
   } // End getVal function
