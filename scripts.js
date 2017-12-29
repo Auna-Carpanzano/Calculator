@@ -31,6 +31,7 @@ $(document).ready(function() {
       lastTotal = $("#output").html();
       inputs = [lastTotal];
       total = inputs;
+      afterEqual = false;
     }
 
   } // End getVal function
