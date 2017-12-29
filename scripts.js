@@ -3,5 +3,7 @@ $(document).ready(function() {
   var afterEqual= false;
   //Stores result after equal button is pressed
   var lastTotal;
+  //Stores inputs from user
+  var inputs = [""];
 
 }); //End document ready function
