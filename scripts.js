@@ -1,23 +1,28 @@
 $(document).ready(function() {
-  //Keeps track of state after equal button is pressed
+  // Keeps track of state after equal button is pressed
   var afterEqual= false;
 
-  //Stores result after equal button is pressed
+  // Stores result after equal button is pressed
   var lastTotal;
 
-  //Stores inputs from user
+  // Stores inputs from user
   var inputs = [""];
 
-  //Stores string of inputs
+  // Stores string of inputs
   var total;
 
-  //For validation- without decimal
+  // For validation- without decimal
   var operators1 = ["+", "-", "/", "*"];
 
-  //For validation- decimal
+  // For validation- decimal
   var operators2 = ["."];
 
-  //For validation- numbers
+  // For validation- numbers
   var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-}); //End document ready function
+  // Validates operators and calls update function
+  function getVal(input) {
+
+  } // End getVal function
+
+}); // End document ready function
