@@ -29,4 +29,5 @@ body {
 .greenBtn {
   background-color: #09774F;
   height: 110px;
+  float: right;
 }
