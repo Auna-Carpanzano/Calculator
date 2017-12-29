@@ -22,6 +22,14 @@ $(document).ready(function() {
 
   // Validates operators and calls update function
   function getVal(input) {
+    /*
+    After equal button is pressed,
+    set inputs and total to current result
+    and change afterEqual to false
+    */
+    if (afterEqual === true) {
+
+    }
 
   } // End getVal function
 
