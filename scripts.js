@@ -14,4 +14,7 @@ $(document).ready(function() {
   //For validation- without decimal
   var operators1 = ["+", "-", "/", "*"];
 
+  //For validation- decimal
+  var operators2 = ["."];
+
 }); //End document ready function
