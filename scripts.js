@@ -34,6 +34,11 @@ $(document).ready(function() {
       afterEqual = false;
     }
 
+    // Does not allow two decimals next to each other
+    if (operators2.includes(inputs[inputs.length-1]) === true && input === ".") {
+      console.log("Duplicate '.' ");
+    }
+
   } // End getVal function
 
 }); // End document ready function
