@@ -72,6 +72,7 @@ $(document).ready(function() {
   // Evaluates total using "eval"
   function getTotal() {
     $("#output").html(eval(total));
+    var lastTotal= eval(total);
   }
 
 }); // End document ready function
