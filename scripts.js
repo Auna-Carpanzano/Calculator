@@ -63,4 +63,9 @@ $(document).ready(function() {
 
   } // End getVal function
 
+  // Joins inputs and displays in output
+  function update() {
+    total = inputs.join("");
+  }
+
 }); // End document ready function
