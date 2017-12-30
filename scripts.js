@@ -87,7 +87,10 @@ $(document).ready(function() {
 
     // CE button removes one from end and calls update function
     else if (this.id === "ce") {
-
+      // Allows input after too many CE presses
+      if (inputs.length === 0) {
+          console.log("Input cleared");
+      }
     }
 
   }); //End button click function
