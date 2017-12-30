@@ -90,6 +90,11 @@ $(document).ready(function() {
       // Allows input after too many CE presses
       if (inputs.length === 0) {
           console.log("Input cleared");
+      } else {
+        // Allows input to clear after equals
+        if (afterEqual === true) {
+          $("#output").empty();
+        }
       }
     }
 
