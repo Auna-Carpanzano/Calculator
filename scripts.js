@@ -101,6 +101,11 @@ $(document).ready(function() {
       }
     }
 
+    // Equal button calls getTotal function
+    else if (this.id === "=") {
+      getTotal();
+    }
+
   }); //End button click function
 
 }); // End document ready function
