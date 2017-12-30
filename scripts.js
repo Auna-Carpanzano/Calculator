@@ -44,6 +44,11 @@ $(document).ready(function() {
       console.log("Too many inputs");
     }
 
+    // Validation to not start with operator
+    else if (inputs.length===1 && operators1.includes(input)===false) {
+      inputs.push(input);
+    }
+
   } // End getVal function
 
 }); // End document ready function
