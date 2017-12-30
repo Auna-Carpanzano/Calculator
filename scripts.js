@@ -85,6 +85,11 @@ $(document).ready(function() {
       update();
     }
 
+    // CE button removes one from end and calls update function
+    else if (this.id === "ce") {
+
+    }
+
   }); //End button click function
 
 }); // End document ready function
