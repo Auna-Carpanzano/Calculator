@@ -76,4 +76,9 @@ $(document).ready(function() {
     afterEqual = true;
   }
 
+  // When buttons are clicked
+  $("button").on("click", function() {
+
+  }); //End button click function
+
 }); // End document ready function
