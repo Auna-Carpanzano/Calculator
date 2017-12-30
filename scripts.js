@@ -69,4 +69,9 @@ $(document).ready(function() {
     $("#output").html(total);
   }
 
+  // Evaluates total using "eval"
+  function getTotal() {
+    $("#output").html(eval(total));
+  }
+
 }); // End document ready function
