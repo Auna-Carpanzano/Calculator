@@ -79,6 +79,12 @@ $(document).ready(function() {
   // When buttons are clicked
   $("button").on("click", function() {
 
+    // AC button clears inputs and calls update function
+    if (this.id === "ac") {
+      inputs = [""];
+      update();
+    }
+
   }); //End button click function
 
 }); // End document ready function
