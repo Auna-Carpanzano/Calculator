@@ -94,6 +94,9 @@ $(document).ready(function() {
         // Allows input to clear after equals
         if (afterEqual === true) {
           $("#output").empty();
+        } else {
+          inputs.pop();
+          update();
         }
       }
     }
