@@ -49,6 +49,11 @@ $(document).ready(function() {
       inputs.push(input);
     }
 
+    // Does not allow two operators next to each other
+    else if (operators1.includes(inputs[inputs.length-1])===false) {
+      inputs.push(input);
+    }
+
   } // End getVal function
 
 }); // End document ready function
