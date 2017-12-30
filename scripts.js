@@ -39,6 +39,11 @@ $(document).ready(function() {
       console.log("Duplicate '.' ");
     }
 
+    // Limits input to 23 characters
+    else if (inputs.length === 24) {
+      console.log("Too many inputs");
+    }
+
   } // End getVal function
 
 }); // End document ready function
