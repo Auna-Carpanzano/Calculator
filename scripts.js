@@ -66,6 +66,7 @@ $(document).ready(function() {
   // Joins inputs and displays in output
   function update() {
     total = inputs.join("");
+    $("#output").html(total);
   }
 
 }); // End document ready function
