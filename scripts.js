@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // Keeps track of state after equal button is pressed
-  var afterEqual= false;
+  var afterEqual = false;
 
   // Stores result after equal button is pressed
   var lastTotal;
@@ -89,7 +89,7 @@ $(document).ready(function() {
     else if (this.id === "ce") {
       // Allows input after too many CE presses
       if (inputs.length === 0) {
-          console.log("Input cleared");
+        console.log("Input cleared");
       } else {
         // Allows input to clear after equals
         if (afterEqual === true) {
@@ -106,6 +106,9 @@ $(document).ready(function() {
       getTotal();
     }
 
+    // Number and operator buttons runs getVal function
+    else {
+      getVal(this.id);
+    }
   }); //End button click function
-
 }); // End document ready function
