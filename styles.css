@@ -1,0 +1,48 @@
+body {
+  background-color: #4B5957;
+  color: black;
+  font-size: 32px;
+}
+
+.box {
+  background-color: rgb(50, 50, 50);
+  width: 500px;
+  margin: 100px auto;
+  padding: 5px 15px 15px 20px;
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: #B8A48C;
+  color: black;
+  width: 75px;
+  height: 50px;
+  margin: 5px;
+  font-size: 24px;
+  border: none;
+}
+
+.redBtn {
+  background-color: #D9383A;
+}
+
+.greenBtn {
+  background-color: #09774F;
+  height: 110px;
+  float: right;
+  margin-right: 10px;
+}
+
+.zeroBtn {
+  width: 169px;
+}
+
+#output {
+  background-color: #B8A48C;
+  width: 460px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
