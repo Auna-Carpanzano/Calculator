@@ -54,6 +54,11 @@ $(document).ready(function() {
       inputs.push(input);
     }
 
+    // Validates numbers
+    else if (numbers.includes(Number(input))) {
+      inputs.push(input);
+    }
+
   } // End getVal function
 
 }); // End document ready function
