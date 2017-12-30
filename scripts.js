@@ -59,6 +59,8 @@ $(document).ready(function() {
       inputs.push(input);
     }
 
+    update();
+
   } // End getVal function
 
 }); // End document ready function
